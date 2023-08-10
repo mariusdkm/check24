@@ -47,7 +47,7 @@
             android:textSize="11sp"
             android:textColor="@color/c24_blue"
             app:backgroundTint="@color/white"
-            app:cornerRadius="15dp"
+            app:cornerRadius="50dp"
             app:strokeColor="@color/c24_blue"
             app:strokeWidth="2dp"
             />

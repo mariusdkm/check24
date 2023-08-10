@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp">
 
     <LinearLayout
@@ -77,9 +78,13 @@
             android:id="@+id/submit_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit Application"
-            android:backgroundTint="@color/design_default_color_primary"
-            android:textColor="@android:color/white" />
+            android:text="SUBMIT APPLICATION"
+            android:textColor="@color/c24_blue"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="50dp"
+            app:strokeColor="@color/c24_blue"
+            app:strokeWidth="2dp"
+            />
 
     </LinearLayout>
 </ScrollView>
