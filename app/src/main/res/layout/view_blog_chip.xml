@@ -8,7 +8,11 @@
     android:clickable="false"
     android:includeFontPadding="false"
     android:padding="6dp"
-    app:cornerRadius="0dp"
+    android:rotationX="0"
+    android:textColor="@color/c24_blue"
     android:textSize="11sp"
-    app:backgroundTint="@color/c24_yellow"
+    app:backgroundTint="@color/white"
+    app:cornerRadius="15dp"
+    app:strokeColor="@color/c24_blue"
+    app:strokeWidth="2dp"
     tools:text="Softwaredevelopment" />
