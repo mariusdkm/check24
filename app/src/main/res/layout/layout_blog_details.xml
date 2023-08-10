@@ -50,7 +50,14 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="25dp"
-            android:text="apply to this job" />
+            android:text="APPLY TO THIS JOB"
+            android:textSize="11sp"
+            android:textColor="@color/c24_blue"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="50dp"
+            app:strokeColor="@color/c24_blue"
+            app:strokeWidth="2dp"
+            />
 
     </LinearLayout>
 </ScrollView>
