@@ -13,35 +13,43 @@
             android:id="@+id/detail_blog_image"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:scaleType="centerCrop"
             android:contentDescription="BannerImage"
+            android:scaleType="centerCrop"
             android:src="@drawable/ic_launcher_background" />
 
         <TextView
             android:id="@+id/detail_blog_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
             android:textSize="25sp"
             tools:text="Title" />
-
-        <LinearLayout
-            android:id="@+id/detail_blog_chip_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:layout_height="20dp" />
 
         <TextView
             android:id="@+id/detail_blog_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="20dp"
             tools:text="@string/lorem_ipsum" />
+
+        <LinearLayout
+            android:id="@+id/detail_blog_chip_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            tools:layout_height="20dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/detail_blog_apply_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="8dp"
+            android:layout_marginRight="25dp"
             android:text="apply to this job" />
 
     </LinearLayout>

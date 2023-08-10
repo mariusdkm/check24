@@ -54,6 +54,7 @@
             android:layout_marginTop="8dp"
             android:ellipsize="end"
             android:maxLines="6"
+            android:rotation="0"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/blog_item_image"
             app:layout_constraintTop_toBottomOf="@+id/blog_item_job_description"
