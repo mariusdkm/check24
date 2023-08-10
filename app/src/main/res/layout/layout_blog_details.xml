@@ -16,7 +16,8 @@
             android:layout_height="50dp"
             android:contentDescription="BannerImage"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/ic_launcher_background"
+            android:visibility="invisible" />
 
         <TextView
             android:id="@+id/detail_blog_title"
